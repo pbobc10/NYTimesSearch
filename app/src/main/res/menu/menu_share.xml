@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.nytimessearch.activities.ArticleActivity">
+
+
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="always|collapseActionView"
+        android:title="Share"
+        android:icon="@drawable/ic_menu_share"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+
+</menu>
